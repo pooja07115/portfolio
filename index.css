@@ -1,0 +1,215 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  header{
+    background-color: aqua;
+  }
+  h1{
+    color:#f1f1f1
+  }
+  h2, h3 {
+    color: #333333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #0066cc;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Header Section */
+  header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+  }
+  
+  header h3 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    margin: 0 20px;
+  }
+  
+  .navbar ul li h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .navbar ul li a {
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  .navbar ul li a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  section ul {
+    padding-left: 20px;
+  }
+  
+  section ul li {
+    
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* Education Section */
+  .education ul {
+    padding-left: 20px;
+  }
+  
+  .education ul li {
+    margin-bottom: 15px;
+    
+  }
+  
+  .education ul li h3 {
+    font-size: 1.3rem;
+  }
+  
+  /* Contact Section */
+  .Contact ul {
+    padding-left: 20px;
+  }
+  
+  .Contact ul li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    
+  }
+  
+  .Contact ul li a {
+    font-weight: bold;
+    color: #0066cc;
+  }
+  
+  /* Projects Section */
+  .projects ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .projects ul li {
+    margin-bottom: 20px;
+   
+  }
+  
+  .projects ul li h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+  }
+  
+  .projects ul li p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .projects ul li a {
+    font-weight: bold;
+    color: #0066cc;
+  }
+  
+  .projects ul li a:hover {
+    color: #004080;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 1rem;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .footer p a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .footer p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Smooth Scroll for Anchors */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar ul li {
+      margin: 10px 0;
+    }
+  
+    section {
+      padding: 30px;
+      margin: 10px;
+    }
+  
+    .projects ul li {
+      padding-left: 20px;
+    }
+  }
+  
